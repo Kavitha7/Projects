@@ -1,4 +1,4 @@
-Problem Statement:
+## Problem Statement:
 
 Amazon wants to start a new product line. It has three options of product categories to choose from - CDs and Vinyl, Movies and Ebooks (Kindle).
  
