@@ -4,4 +4,4 @@ CredX is a leading credit card provider that gets thousands of credit card appli
  
 ## Objective:
 
-You will help CredX identify the right customers using predictive models. Using past data of the bank’s applicants, you need to determine the factors affecting credit risk, create strategies to mitigate the acquisition risk.   
+You will help CredX identify the right customers using predictive models. Using past data of the bank’s applicants, you need to determine the factors affecting credit risk, create strategies to mitigate the acquisition risk and develop an application scorecard.
