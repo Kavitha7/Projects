@@ -3,8 +3,8 @@
 A Chinese automobile company Geely Auto aspires to enter the US market by setting up their manufacturing unit there and producing cars locally to give competition to their US and European counterparts. 
  
 Geely Auto wants to understand the factors on which pricing of a car depends. They want to do this for the cars produced by the American and European countries, since their design is very different from the Chinese cars. Essentially the company wants to know:
-•	Which variables are highly significant in estimating the price of a car
-•	How well those important variables describe the price of a car
+1. Which variables are highly significant in estimating the price of a car
+2. How well those important variables describe the price of a car
 
 ## Objective:
 
