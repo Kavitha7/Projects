@@ -1,4 +1,6 @@
-### Objective: To identify images where an "effusion" is present. This is a classification problem, where we will be dealing with two classes - 'effusion' and 'nofinding'. Here, the latter represents a "normal" X-ray image.
+### Objective: 
+
+To identify images where an "effusion" is present. This is a classification problem, where we will be dealing with two classes - 'effusion' and 'nofinding'. Here, the latter represents a "normal" X-ray image.
 
 The data preprocessing and network building involve the following steps.
 
