@@ -12,6 +12,6 @@ The data preprocessing and network building involve the following steps.
 
 ### Network building:
 
-1. Using Resnet 18 architecture.
-2. Weighted cross enropy to deal with class imbalance.
+1. Using Resnet 18 architecture
+2. Using weighted cross entropy to deal with class imbalance
 3. Evaluation metric - AUC
