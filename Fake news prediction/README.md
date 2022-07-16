@@ -1,6 +1,6 @@
 # Objective:
 
-The aim of this study is to use machine learning models predict true and fake news.
+The aim of this study is to use machine learning models to predict true and fake news.
 
 # Dataset: 
 
