@@ -10,9 +10,9 @@ The data set has two CSV files containing true and fake news. Each having Title,
 
 Following models were built to classify true and fake news.
 
-Logistic regression.
-Support vector machine.
-Naive Bayes classifier.
-K-Nearest neighbor.
-Random forests.
+1. Logistic regression.
+2. Support vector machine.
+3. Naive Bayes classifier.
+4. K-Nearest neighbor.
+5. Random forests.
 
