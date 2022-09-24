@@ -2,7 +2,7 @@
 
 To predict Air Quality Index (AQI) for different States of India using Regression models.
 
-Analysis:
+### **Analysis**:
 
 Data analysis involves following steps.
 1. Understanding the given data.
