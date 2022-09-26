@@ -1,9 +1,9 @@
 
-# Objective: 
+### **Objective:** 
 
 The objective of this project is to segment the customers of a retail company based on their purchasing behaviour.
 
-# Attribute Information:
+### **Attribute Information:**
 
 1. InvoiceNo: Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation.
 2. StockCode: Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct product.
