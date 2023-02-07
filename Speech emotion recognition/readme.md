@@ -1,3 +1,5 @@
+# Speech Emotion Recognition
+
 ### **Objective:**
 
 The aim of this project is to define a Speech emption recognition (SER) system that can process and classify speech signals to detect emotions embedded in them. Such a system can find use in a wide variety of application areas like interactive voice based-assistant or caller-agent conversation analysis. In this study an attempt is made to detect underlying emotions in recorded speech by analysing the acoustic features of the audio data of recordings.  
