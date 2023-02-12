@@ -13,16 +13,16 @@ The data describe the change in flux (light intensity) of several thousand stars
 ### **Data description:**
 
 Trainset:
-5087 rows or observations.
-3198 columns or features.
-Column 1 is the label vector. Columns 2 - 3198 are the flux values over time.
-37 confirmed exoplanet-stars and 5050 non-exoplanet-stars.
+1. 5087 rows or observations.
+2. 3198 columns or features.
+3. Column 1 is the label vector. Columns 2 - 3198 are the flux values over time.
+4. 37 confirmed exoplanet-stars and 5050 non-exoplanet-stars.
 
 Testset:
-570 rows or observations.
-3198 columns or features.
-Column 1 is the label vector. Columns 2 - 3198 are the flux values over time.
-5 confirmed exoplanet-stars and 565 non-exoplanet-stars.
+1. 570 rows or observations.
+2. 3198 columns or features.
+3. Column 1 is the label vector. Columns 2 - 3198 are the flux values over time.
+4. confirmed exoplanet-stars and 565 non-exoplanet-stars.
 
 ### **Data analysis:**
 
