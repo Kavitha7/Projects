@@ -1,3 +1,5 @@
+## Exoplanet hunting in deep space
+
 ### **Objective:** 
 
 The aim of this study is to find confirmed exoplanet stars using change in flux (light intensity) of several thousand stars.
