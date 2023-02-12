@@ -1,4 +1,4 @@
-## Exoplanet hunting in deep space
+# Exoplanet hunting in deep space
 
 ### **Objective:** 
 
