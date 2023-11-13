@@ -34,7 +34,7 @@ with st.form("form1", clear_on_submit=False):
 
         features = [vowels,length,ip,server,sign_count]
         final_features = [np.array(features)]
-        prediction = model.predict(final_features)
+        prediction = model1.predict(final_features)
 
         output = prediction[0]
 
