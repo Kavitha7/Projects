@@ -5,6 +5,8 @@ import re
 import random
 import socket
 from urllib.parse import urlparse
+
+model = pickle.load(open('Projects/y_pred', 'rb'))
 st.title("Phishing Detector")
 st.subheader("Phishing Domain Detector Engine")
 with st.form("form1", clear_on_submit=False):
@@ -34,7 +36,7 @@ with st.form("form1", clear_on_submit=False):
 
         features = [vowels,length,ip,server,sign_count]
         final_features = [np.array(features)]
-        prediction = model1.predict(final_features)
+        prediction = model.predict(final_features)
 
         output = prediction[0]
 
@@ -42,4 +44,3 @@ with st.form("form1", clear_on_submit=False):
             st.markdown('The Domin is Legitimate')
         else:
             st.markdown('The Domin is Malicious')
-
