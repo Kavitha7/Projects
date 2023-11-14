@@ -5,6 +5,7 @@ import re
 import random
 import socket
 from urllib.parse import urlparse
+import sklearn
 
 model = pickle.load(open('rf_pred', 'rb'))
 st.title("Phishing Detector")
