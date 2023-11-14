@@ -5,7 +5,7 @@ import re
 import random
 import socket
 from urllib.parse import urlparse
-import scikit-learn as sklearn
+import Scikit-learn as sklearn
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
