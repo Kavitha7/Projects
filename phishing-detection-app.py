@@ -5,7 +5,8 @@ import re
 import random
 import socket
 from urllib.parse import urlparse
-import sklearn
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
 
 model = pickle.load(open('rf_pred', 'rb'))
 st.title("Phishing Detector")
