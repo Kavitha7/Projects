@@ -1,1 +1,9 @@
-
+streamlit 
+numpy
+pandas
+pickle
+re
+random
+socket
+urllib
+scikit-learn
