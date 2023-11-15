@@ -5,7 +5,8 @@ import re
 import random
 import socket
 from urllib.parse import urlparse
-model = pickle.load(open('/app/projects/y_pred', 'rb'))
+with gzip.open('y_pred', 'rb') as model:
+    print(pickle.load(model))
 st.title("Phishing Detector")
 st.subheader("Phishing Domain Detector Engine")
 with st.form("form1", clear_on_submit=False):
