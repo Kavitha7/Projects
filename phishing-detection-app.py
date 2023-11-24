@@ -6,9 +6,7 @@ import random
 import socket
 from urllib.parse import urlparse
 import gzip
-from sklearn.ensemble import RandomForestClassifier
-with gzip.open('y_pred', 'rb') as model:
-    print(pickle.load(model))
+model = gzip.load(open('y_pred','rb'))
 st.title("Phishing Detector")
 st.subheader("Phishing Domain Detector Engine")
 with st.form("form1", clear_on_submit=False):
