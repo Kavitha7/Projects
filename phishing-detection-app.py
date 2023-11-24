@@ -6,6 +6,7 @@ import random
 import socket
 from urllib.parse import urlparse
 import gzip
+from sklearn.ensemble import RandomForestClassifier
 with gzip.open('y_pred', 'rb') as model:
     print(pickle.load(model))
 st.title("Phishing Detector")
