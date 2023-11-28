@@ -6,7 +6,7 @@ import random
 import socket
 from urllib.parse import urlparse
 import gzip
-pip install sklearn
+!pip install sklearn
 import sklearn
 model = pickle.load(gzip.open('rf_pred','rb'))
 st.title("Phishing Detector")
