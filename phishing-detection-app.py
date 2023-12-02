@@ -1,11 +1,11 @@
 import streamlit as st
 import numpy as np
-import pickle
+import import joblib
 import re
 import random
 import socket
 from urllib.parse import urlparse
-model = pickle.load(open('rf_pred', 'rb'))
+model = pickle.load(open('model.joblib', 'rb'))
 st.title("Phishing Detector")
 st.subheader("Phishing Domain Detector Engine")
 with st.form("form1", clear_on_submit=False):
