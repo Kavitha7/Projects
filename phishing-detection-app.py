@@ -35,10 +35,9 @@ with st.form("form1", clear_on_submit=False):
 
         features = []
         final_features = features.append(str(text_input))
-        prediction = ''.join(model.predict(final_features))
+        prediction = ''.join(model.predict([[final_features]]))
         output = prediction[0]
 
-        output = prediction[0]
 
         if output == 0:
             st.markdown('The Domin is Legitimate')
