@@ -36,12 +36,13 @@ with st.form("form1", clear_on_submit=False):
         features = []
         final_features = features.append(str(text_input))
         final_features = np.array(final_features)
+        np.nan_to_num(final_features,copy=False,nan=0.0,posinf=0.0,neginf=0.0)
         final_features1 = final_features.reshape(-1,1)
         prediction = ''.join(model.predict(final_features1))
         output = prediction[0]
 
 
         if output == 0:
-            st.markdown('The Domin is Legitimate')
+            st.markdown('The Domain is Legitimate')
         else:
-            st.markdown('The Domin is Malicious')
+            st.markdown('The Domain is Malicious')
