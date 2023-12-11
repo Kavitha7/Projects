@@ -36,9 +36,9 @@ with st.form("form1", clear_on_submit=False):
         features = []
         final_features = features.append(str(text_input))
         final_features = np.array(final_features)
-        final_features1 = np.nan_to_num(final_features,copy=False,nan=0.0,posinf=0.0,neginf=0.0)
-        final_features2 = final_features.reshape(-1,1)
-        prediction = ''.join(model.predict(final_features2))
+        final_features1 = final_features.reshape(-1,1)
+        np.nan_to_num(final_features1,copy=False,nan=0.0,posinf=0.0,neginf=0.0)
+        prediction = ''.join(model.predict(final_features1))
         output = prediction[0]
 
 
