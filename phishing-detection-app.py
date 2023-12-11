@@ -37,7 +37,7 @@ with st.form("form1", clear_on_submit=False):
         final_features = features.append(str(text_input))
         final_features = np.array(final_features)
         final_features1 = final_features.reshape(-1,1)
-        np.where(final_features1.values >= np.finfo(np.float32).max)
+        np.where(final_features1 >= np.finfo(np.float32).max)
         prediction = ''.join(model.predict(final_features1))
         output = prediction[0]
 
