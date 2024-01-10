@@ -1,1 +1,18 @@
+## Objective
+
+Phishing is a type of fraud in which an attacker impersonates a reputable company or person in order to get sensitive information such as login credentials or account information via email or other communication channels. Phishing is popular among attackers because it is easier to persuade someone to click a malicious link that appears to be authentic than it is to break through a computer's protection measures.
+Phishing attacks are done via emails, text messages, or websites. Phishing websites have the same look as legitimate sites. However, their backend is designed to collect sensitive information that is inputted by the victim.
+Thus this project aims to detect phishing domains using machine learning models.
+
+Models:
+In this study different types of models are built as:
+1.	Logistic Regression Classifier.
+2.	Decision Tree Classifier.
+3.	Random Forest Classifier.
+4.	K-Nearest Neighbor classifier.
+5.	eXtreme Gradient Boosting classifier.
+6.	Naïve Bayes classifier.
+
+Conclusion:
+Out of all models created, Random forest classifier performed best with an accuracy of 97.16% and F1-score of 0.9717. Hence Random forest classifier can be best utilized for phishing domain detection.
 
